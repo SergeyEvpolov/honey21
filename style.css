@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Montserrat:wght@300;400;700&display=swap');
+*{
+	font-size: 20px;
+}
+
+body{
+	background-image: url(https://images.squarespace-cdn.com/content/v1/6361d2b577928610be283103/1667355328863-H1JLAY919NHFQ4CEWY2E/iStock-157278938.jpg?format=2500w);
+	background-size: 100% auto;
+	color: #090909;
+	background-attachment: fixed;
+	font-family: 'Cormorant Garamond', serif;
+  font-family: 'Montserrat', sans-serif;
+	margin: 20px 100px 10px 100px;
+}
+
+.info .avatar img{
+	width: 200px;
+}
+
+.avatar{
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.container{
+	max-width: 1000px;
+	margin: auto;
+	display: block;
+}
+
+a{
+	text-decoration: none;
+	color:#040404;
+}
+
+.info{
+	background-color: inherit;
+	color: #ffffff;
+	margin-bottom: 20px;
+	display: flex;
+	border-radius: 20px;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.info .info-text{
+	padding: 15px 20px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	overflow: hidden;
+	color: #ffffff;
+	width: 700;
+}
+
+.info-text > a{
+	color:#ffffff;
+}
+
+a:hover{
+	color: blueviolet;
+}
+
+.card{
+	background: rgb(36, 38, 41);
+	padding: 15px 20px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+}
+
+.card h2{
+	margin-bottom: 10px;
+}
+
+ul{
+	list-style-type: disc;
+}
+
+ol{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+input{
+	background: rgb(19, 19, 20);
+	color:#ffffff;
+}
+
+textarea{
+	background: rgb(19, 19, 20);
+	color:#ffffff;
+}
+
+.bg-yellow{
+	background: rgb(241, 241, 168);
+}
+.bg-green{
+	background: rgb(204, 254, 191);
+}
+.bg-red{
+	background: rgb(245, 204, 184);
+}
+.bg-blue{
+	background: rgb(184, 234, 245);
+}
+
+.card .bg-green{
+	color:#000;
+}
+
+.table{
+	width: 100%;
+}
+
+.table td{
+	padding-bottom: 10px;
+}
+
+.forma label{
+	display: block;
+	font-size: 20px;
+	color:rgb(69, 67, 65)
+}
+
+.forma input,
+.forma textarea{
+	width: 100%;
+	box-sizing: border-box;
+	border: none;
+	background: transparent;
+	font-family: inherit;
+	font-weight: 600;
+	border-bottom: 1px solid #000000;
+	color: #000;
+	padding: 15px 0px 10px;
+	font-size: 18px;
+	outline: none;
+}
+
+.row{
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.row > .forma{
+	width: 50%;
+	margin-right: 20px;
+}
+
+.row > .forma:last-child{
+	margin-right: 0;
+}
+
+.btn{
+	color:#000;
+	padding: 15px 20px;
+	margin-top: 10px;
+	color:#fff;
+	border: none;
+	font-family: inherit;
+	cursor: pointer;
+}
+
+.btn:hover{
+	opacity: 0.9;
+}
